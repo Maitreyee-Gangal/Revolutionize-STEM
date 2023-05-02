@@ -1,0 +1,256 @@
+body{
+    background-color: black;
+    color: white;
+    margin:0;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+  hr{
+    width:7%;
+    text-align: center;
+  }
+
+  .pagefillimg{
+    width:100%;
+    height:30%;
+    margin:0;
+    padding:0;
+  }
+  
+  
+   nav ul{
+    list-style-type:none;
+    overflow: hidden;
+    background-color:black;
+    margin:0;
+    text-align:center;
+    padding:2.5%;
+  
+    }
+  
+  nav li{
+    display:inline;
+  
+    padding:3rem;
+  
+  
+  }
+  
+  nav li a{
+    text-decoration:none;
+    color:white;
+    padding:0;
+    margin:0;
+  
+    font-family: 'Red Hat Display', sans-serif;
+  
+  }
+  
+   table{
+     width:100%;
+   }
+  
+   td{
+     text-align: center;
+     padding:3%;
+     padding-top:10%;
+     width: 50%;
+   }
+  
+   tr{
+     padding-bottom: 4%;
+   }
+   h1{
+     text-align: center;
+   }
+   .question{
+     font-size:200%;
+     /* width:30%; */
+   }
+  
+   .answer{
+     font-size:115%;
+     padding-right:10%;
+   }
+   .faq{
+     font-size:300%;
+    text-align: center;
+   }
+  
+   .project{
+     justify-content: center;
+     text-align: center;
+     
+     padding: 0 auto 0;
+     margin: 5%;
+     border-radius: 20%;
+   }
+
+   .projectblob{
+    background-color: #E68FAE;
+    
+    /*border-radius: 59% 41% 68% 32% / 70% 30% 70% 30% ; */
+    border-radius:24% 76% 75% 25% / 70% 62% 38% 30% ;
+    
+   }
+
+   .project img{
+    height: 70%;
+    width:100%;
+   }
+  
+  .button{
+    text-decoration:none;
+    background-color:black;
+    border: none;
+    color:white;
+    padding:3%;
+    border-radius:10%;
+  
+  }
+
+  .applications{
+    background-color:#E68FAE;
+
+  }
+
+  footer{
+   color:gray;
+   text-align: center;
+   margin:5%;
+  }
+
+  .impact{
+    background-color: #5DA6D4;
+    color: white;
+    margin:10% 0;
+    text-align: center;
+  }
+  .impactdiv{
+    width:50%;
+    padding: 7% 0;
+    display:inline-block;
+  }
+  
+  .blogbox{
+    background-color: white;
+    color:black;
+    border-radius: 15%;
+    width: 25%;
+    height: 50%;
+    display: inline-block;
+    margin: 4%;
+    
+  }
+
+  .blogbox p,h1 {
+    text-align: center;
+    padding:0 10%;
+  }
+
+  .blogbox img{
+    width:100%;
+    height:10%;
+    border-radius: 15% 15% 0 0;
+  }
+
+/* THIS IS A TEST I REPEAT A TEST!! */
+
+* {
+  box-sizing: border-box;
+  
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #92BEDD;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: black;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #5DA6D4;
+  border: 4px solid #5DA6D4;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: #92BEDD;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+iframe{
+  width:100%;
+}
