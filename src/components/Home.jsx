@@ -25,6 +25,7 @@ function Home(){
     </table>
     {/* Impact section */}
     <div class="impact">
+    
     <div class="impactdiv">
     <h1>2000</h1>
     <p>girls inspired.</p>
