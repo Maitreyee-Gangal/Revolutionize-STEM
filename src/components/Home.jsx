@@ -24,8 +24,6 @@ function Home(){
 
     </table>
     {/* Impact section */}
-
-
     <div class="impact">
     <div class="impactdiv">
     <h1>2000</h1>
@@ -33,7 +31,11 @@ function Home(){
     </div>
     <div class="impactdiv">
     <h1>34</h1>
-    <p>continents reached.</p>
+    <p>countries reached.</p>
+    </div>
+    <div class="impactdiv">
+    <h1>6</h1>
+    <p>continents over.</p>
     </div>
     </div>
     <Footer />
